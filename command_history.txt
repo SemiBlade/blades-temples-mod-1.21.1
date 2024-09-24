@@ -1,0 +1,50 @@
+/effect give @s minecraft:night_vision infinite
+/gmask blue_concrete
+//brush sphere 65%mossy_stone_bricks,35%stone_bricks
+//brush sphere 65%mossy_stone_bricks,35%stone_bricks 6
+//brush sphere 65%mossy_cobblestone,35%cobblestone 6
+//brush sphere 65%mossy_stone_bricks,35%stone_bricks 6
+//brush sphere 65%mossy_cobblestone,35%cobblestone 6
+//brush sphere 65%mossy_stone_bricks,35%stone_bricks 6
+//brush sphere 65%mossy_cobblestone,35%cobblestone 6
+//brush sphere 65%mossy_stone_bricks,35%stone_bricks 6
+//brush sphere 65%mossy_cobblestone,35%cobblestone 6
+//brush sphere 65%mossy_stone_bricks,35%stone_bricks 6
+//brush sphere 65%mossy_cobblestone,35%cobblestone 6
+//brush sphere 65%mossy_stone_bricks,35%stone_bricks 6
+//brush sphere 65%mossy_cobblestone,35%cobblestone 6
+/clear
+//brush sphere air
+//brush sphere 65%mossy_stone_bricks,35%stone_bricks 6
+/gmask mossy_stone_bricks
+//brush sphere 65%smooth_sandstone,35%sandstone 6
+/gmask stone_bricks
+/gmask blue_concrete
+/locate structure blades_structures:jungle/ruins/ruins
+/tp @s 4960 ~ 2464
+/locate structure blades_structures:desert/ruins/ruins
+/tp @s 4368 ~ 2704
+/place structure blades_structures:desert/ruins/ruins
+/locate structure blades_structures:jungle/ruins/ruins
+/tp @s 3408 ~ 3360
+/locate structure blades_structures:jungle/ruins/ruins
+/tp @s 2640 ~ 3632
+/locate structure blades_structures:jungle/temple
+/tp @s 1024 ~ 8560
+/gamemode spectator
+/effect give @s minecraft:night_vision
+/gamemode spectator
+/effect give @s minecraft:night_vision infinite
+/locate structure blades_structures:rare_structures/underwater_city
+/tp @s -368 ~ -352
+/gmask blue_concrete
+//brush sphere 58%mossy_stone_bricks,42%stone_bricks
+/clear
+/gamemode survival
+/place structure blades
+/place structure blades_structures:jungle/temple
+/gamemode spectator
+/gamemode survival
+/gamemode spectator
+/place structure blades_structures:jungle/temple
+/gamemode survival

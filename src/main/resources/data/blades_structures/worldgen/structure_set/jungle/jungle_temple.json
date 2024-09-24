@@ -1,0 +1,22 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 362915561,
+    "separation": 100,
+    "spacing": 600,
+    "spread_type": "triangular"
+  },
+  "structures": [
+    {
+      "structure": "blades_structures:jungle/temple",
+      "weight": 1,
+      "terrain_adaptation": "beard_box",
+      "start_height": {
+        "heightmap": "WORLD_SURFACE_WG",
+        "adjustment": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  ],
+  "integrity": 1.0
+}
